@@ -8,7 +8,7 @@ use serde::{Deserialize, Serialize};
 #[tokio::main]
 async fn main() {
     // initialize tracing
-    tracing_subscriber::fmt::init();
+    //tracing_subscriber::fmt::init();
 
     // build our application with a route
     let app = Router::new()
