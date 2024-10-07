@@ -1,0 +1,1 @@
+docker run --rm --cpus 4 -p 3000:8000 --name python-webserver-test python3-test

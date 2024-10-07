@@ -1,5 +1,3 @@
-version: '3'
-
 services:
    nginx:
       image: nginx
@@ -15,5 +13,6 @@ services:
       expose:
          - "8000"
       deploy:
-        limits:
-          cpus: "4"
+         resources:
+            limits:
+               cpus: "4"

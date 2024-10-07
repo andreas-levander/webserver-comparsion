@@ -1,0 +1,1 @@
+docker run --rm --cpus 4 -p 3000:3000 --name bun-webserver-test bun-test
